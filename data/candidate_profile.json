@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-15",
+  "facts": [
+    {
+      "id": "frontend-experience",
+      "aliases": ["前端开发经验", "Web开发经验", "工作年限", "前端经验"],
+      "evidence": "ZYW 拥有 6 年 Web 前端开发经验，长期从事前端及相关应用开发。",
+      "source": "曾有为-AI-Agent应用开发.pdf"
+    },
+    {
+      "id": "frontend-stack",
+      "aliases": ["Vue", "Vue2", "Vue3", "TypeScript", "JavaScript", "WebSocket", "小程序"],
+      "evidence": "具备 Vue 2、Vue 3、TypeScript、JavaScript、WebSocket 与小程序相关项目经验。",
+      "source": "曾有为-AI-Agent应用开发.pdf"
+    },
+    {
+      "id": "agent-rag-stack",
+      "aliases": ["Agent", "AI Agent", "RAG", "LangChain", "LangGraph", "Function Calling", "工具调用", "知识库"],
+      "evidence": "已完成包含 LangChain、LangGraph、RAG、工具调用、引用验证与有限重试的 AI Agent 项目。",
+      "source": "ZYW 的 AI 小助理项目"
+    },
+    {
+      "id": "backend-stack",
+      "aliases": ["Python", "FastAPI", "RESTful API", "SSE", "流式输出", "大模型API"],
+      "evidence": "具备 Python、FastAPI、RESTful API、SSE 流式输出及大模型 API 对接实践。",
+      "source": "ZYW 的 AI 小助理项目"
+    }
+  ]
+}

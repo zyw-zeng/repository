@@ -1,0 +1,13 @@
+<!-- “ZYW 的 AI 小助理”渐变星形应用图标。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="brand" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39d4f2"/>
+      <stop offset="0.52" stop-color="#6675ff"/>
+      <stop offset="1" stop-color="#b451ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#111426"/>
+  <path d="M32 10l4.8 14.2L51 29l-14.2 4.8L32 48l-4.8-14.2L13 29l14.2-4.8L32 10z" fill="url(#brand)"/>
+  <circle cx="49" cy="14" r="4" fill="#fff" fill-opacity=".88"/>
+</svg>

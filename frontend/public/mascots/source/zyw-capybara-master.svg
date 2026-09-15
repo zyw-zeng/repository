@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">ZYW 卡皮巴拉科技宠物分层原画</title>
+  <desc id="description">戴着星环耳机、使用机械键盘的可爱卡皮巴拉</desc>
+  <defs>
+    <linearGradient id="fur" x1="130" y1="80" x2="390" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffc081"/><stop offset=".55" stop-color="#ee955a"/><stop offset="1" stop-color="#cc7042"/>
+    </linearGradient>
+    <linearGradient id="bellyPaint" x1="230" y1="245" x2="290" y2="407" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe0ae"/><stop offset="1" stop-color="#efad72"/>
+    </linearGradient>
+    <linearGradient id="tech" x1="0" x2="1"><stop stop-color="#28d9ff"/><stop offset="1" stop-color="#9d5cff"/></linearGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+
+  <!-- 每个命名组都可以在 Rive 中绑定独立骨骼或状态。 -->
+  <g id="shadow"><ellipse cx="260" cy="465" rx="183" ry="19" fill="#14213d" opacity=".2"/></g>
+
+  <g id="tail"><ellipse cx="404" cy="354" rx="29" ry="43" fill="#b9613d" stroke="#713923" stroke-width="7" transform="rotate(14 404 354)"/></g>
+  <g id="body">
+    <path d="M171 242c-38 34-50 89-37 142 13 56 61 78 129 76 83-2 143-32 142-111-1-69-47-123-114-131-47-6-89 1-120 24Z" fill="url(#fur)" stroke="#713923" stroke-width="8"/>
+  </g>
+  <g id="belly"><ellipse cx="263" cy="350" rx="78" ry="91" fill="url(#bellyPaint)" opacity=".92"/></g>
+
+  <g id="ear_left"><circle cx="161" cy="112" r="40" fill="#df8550" stroke="#713923" stroke-width="8"/><circle cx="161" cy="114" r="22" fill="#a95b3c" opacity=".7"/></g>
+  <g id="ear_right"><circle cx="348" cy="116" r="43" fill="#df8550" stroke="#713923" stroke-width="8"/><circle cx="348" cy="118" r="24" fill="#a95b3c" opacity=".7"/></g>
+  <g id="head">
+    <path d="M124 139c20-49 70-72 135-69 75 3 126 42 133 112 7 68-31 128-99 153-73 27-155 5-187-56-23-43-11-100 18-140Z" fill="url(#fur)" stroke="#713923" stroke-width="8"/>
+    <path d="M148 138c36-46 94-57 145-45" fill="none" stroke="#ffe1b6" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+  </g>
+
+  <g id="blush_left"><ellipse cx="153" cy="238" rx="24" ry="13" fill="#f57869" opacity=".55"/><path d="m141 238 7-8m2 13 8-9" stroke="#d95b50" stroke-width="4" stroke-linecap="round"/></g>
+  <g id="blush_right"><ellipse cx="342" cy="239" rx="24" ry="13" fill="#f57869" opacity=".55"/><path d="m330 238 7-8m3 13 8-9" stroke="#d95b50" stroke-width="4" stroke-linecap="round"/></g>
+  <g id="muzzle"><ellipse cx="246" cy="230" rx="65" ry="58" fill="#b66e4d" opacity=".82"/></g>
+  <g id="nose"><ellipse cx="246" cy="207" rx="17" ry="12" fill="#542e25"/><ellipse cx="240" cy="203" rx="5" ry="3" fill="#fff" opacity=".5"/></g>
+  <g id="eye_left"><ellipse cx="181" cy="188" rx="15" ry="22" fill="#40241f"/><circle cx="176" cy="181" r="5" fill="#fff"/></g>
+  <g id="eye_right"><ellipse cx="313" cy="188" rx="15" ry="22" fill="#40241f"/><circle cx="308" cy="181" r="5" fill="#fff"/></g>
+  <g id="eyelid_left" opacity="0"><path d="M164 189q17 13 34 0" fill="none" stroke="#603425" stroke-width="8" stroke-linecap="round"/></g>
+  <g id="eyelid_right" opacity="0"><path d="M296 189q17 13 34 0" fill="none" stroke="#603425" stroke-width="8" stroke-linecap="round"/></g>
+  <g id="mouth_idle"><path d="M246 219v31m0 0q-18 23-35 1m35-1q18 23 35 1" fill="none" stroke="#542e25" stroke-width="7" stroke-linecap="round"/></g>
+  <g id="mouth_talk" opacity="0"><ellipse cx="246" cy="255" rx="18" ry="13" fill="#542e25"/><path d="M235 259q11 8 22 0" fill="none" stroke="#f4a5a5" stroke-width="4"/></g>
+  <g id="mouth_error" opacity="0"><path d="M226 262q20-18 40 0" fill="none" stroke="#542e25" stroke-width="7" stroke-linecap="round"/></g>
+
+  <g id="headphone_band"><path d="M136 186C127 76 199 43 270 49c78 6 117 52 110 139" fill="none" stroke="#17213b" stroke-width="25" stroke-linecap="round"/><path d="M148 144c18-66 75-84 122-79 47 4 81 29 94 74" fill="none" stroke="url(#tech)" stroke-width="6" stroke-linecap="round"/></g>
+  <g id="headphone_left"><rect x="112" y="157" width="42" height="87" rx="20" fill="#202b49" stroke="#11182d" stroke-width="8"/><path d="M145 174v51" stroke="#39d9ff" stroke-width="6" stroke-linecap="round"/></g>
+  <g id="headphone_right"><rect x="365" y="155" width="55" height="94" rx="25" fill="#202b49" stroke="#11182d" stroke-width="8"/><circle cx="391" cy="201" r="24" fill="#11182d" stroke="url(#tech)" stroke-width="7"/><path d="m391 187 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2Z" fill="#ffc64b"/></g>
+  <g id="headphone_light"><circle cx="391" cy="201" r="29" fill="none" stroke="#39d9ff" stroke-width="5" opacity=".45" filter="url(#softGlow)"/></g>
+
+  <g id="keyboard">
+    <path d="m72 372 304-25 70 77-311 50Z" fill="#17223e" stroke="#0c1326" stroke-width="9" stroke-linejoin="round"/>
+    <path d="m83 382 289-24 53 57-287 43Z" fill="#293654"/>
+  </g>
+  <g id="keyboard_keys" fill="#465574" stroke="#111a30" stroke-width="3">
+    <path d="m102 386 35-3 13 15-36 4Zm48-4 35-3 13 14-36 5Zm48-4 35-3 13 14-36 5Zm48-4 35-3 13 14-36 5Zm48-4 35-3 13 14-36 5Zm48-4 31-3 14 14-33 5Z"/>
+    <path d="m121 410 38-5 14 16-39 6Zm52-7 38-5 15 16-40 6Zm53-7 38-5 15 16-40 6Zm53-7 38-5 15 16-40 6Zm53-7 38-5 16 16-41 6Z"/>
+    <path d="m145 438 58-9 15 17-60 9Zm72-11 82-12 16 17-85 13Zm96-14 56-8 17 17-59 9Z"/>
+  </g>
+  <g id="keyboard_light"><path d="m137 467 286-45" fill="none" stroke="url(#tech)" stroke-width="6" stroke-linecap="round" filter="url(#softGlow)"/><path d="m137 467 286-45" fill="none" stroke="url(#tech)" stroke-width="4" stroke-linecap="round"/></g>
+
+  <g id="arm_left"><path d="M167 314c-33 3-52 31-42 59 8 22 34 27 58 9" fill="url(#fur)" stroke="#713923" stroke-width="8" stroke-linecap="round"/><path d="m145 363 1 18m15-20 3 17" stroke="#713923" stroke-width="5" stroke-linecap="round"/></g>
+  <g id="arm_right"><path d="M316 312c35 0 55 28 47 57-7 24-35 30-61 13" fill="url(#fur)" stroke="#713923" stroke-width="8" stroke-linecap="round"/><path d="m326 362-2 18m18-20-1 17" stroke="#713923" stroke-width="5" stroke-linecap="round"/></g>
+</svg>

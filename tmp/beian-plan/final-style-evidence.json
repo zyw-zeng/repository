@@ -1,0 +1,145 @@
+{
+  "input": "E:\\AI\\repository\\output\\\u5907\u6848\u8d44\u6599\\\u7f51\u7ad9\u5efa\u8bbe\u65b9\u6848\u4e66-\u66fe\u6709\u4e3a-\u5f85\u7b7e\u5b57.docx",
+  "fonts_by_char_count": {
+    "\u4eff\u5b8b": 4311
+  },
+  "direct_run_formatting_runs": 80,
+  "direct_paragraph_formatting_paragraphs": 45,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "\u7f51\u7ad9\u5efa\u8bbe\u65b9\u6848",
+      "style": "Normal"
+    },
+    {
+      "para_index": 4,
+      "text": "\u4e00\u3001\u7f51\u7ad9\u5185\u5bb9\u53ca\u680f\u76ee\u4ecb\u7ecd",
+      "style": "Normal"
+    },
+    {
+      "para_index": 7,
+      "text": "3. \u4e3b\u8981\u680f\u76ee\u53ca\u529f\u80fd\uff1a",
+      "style": "Normal"
+    },
+    {
+      "para_index": 19,
+      "text": "\u4e8c\u3001\u4eba\u5458\u53ca\u8d44\u91d1\u5b89\u6392",
+      "style": "Normal"
+    },
+    {
+      "para_index": 23,
+      "text": "\u4e09\u3001\u5185\u5bb9\u7ba1\u7406\u5236\u5ea6\uff08\u8bbe\u5907\u3001\u7ec4\u7f51\u3001\u6280\u672f\u548c\u90e8\u7f72\uff09",
+      "style": "Normal"
+    },
+    {
+      "para_index": 29,
+      "text": "\u56db\u3001\u7f51\u7ad9\u5b89\u5168\u4e0e\u4fe1\u606f\u5b89\u5168\u7ba1\u7406\u5236\u5ea6",
+      "style": "Normal"
+    },
+    {
+      "para_index": 37,
+      "text": "\u4e94\u3001\u57df\u540d\u7ba1\u7406",
+      "style": "Normal"
+    },
+    {
+      "para_index": 41,
+      "text": "\u516d\u3001\u4e0a\u7ebf\u4e0e\u5408\u89c4\u5b89\u6392",
+      "style": "Normal"
+    },
+    {
+      "para_index": 44,
+      "text": "\u4e03\u3001\u627f\u8bfa",
+      "style": "Normal"
+    },
+    {
+      "para_index": 50,
+      "text": "\u5907\u6848\u4e3b\u529e\u8005",
+      "style": "Normal"
+    },
+    {
+      "para_index": 52,
+      "text": "\u65b0\u589e\u670d\u52a1\u540d\u79f0",
+      "style": "Normal"
+    },
+    {
+      "para_index": 54,
+      "text": "\u7f51\u7ad9\u5c55\u793a\u540d\u79f0",
+      "style": "Normal"
+    },
+    {
+      "para_index": 56,
+      "text": "\u65b0\u589e\u57df\u540d",
+      "style": "Normal"
+    },
+    {
+      "para_index": 58,
+      "text": "\u7f51\u7ad9\u6027\u8d28",
+      "style": "Normal"
+    },
+    {
+      "para_index": 60,
+      "text": "\u63a5\u5165\u670d\u52a1\u5546",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "\u7f51\u7ad9\u5efa\u8bbe\u65b9\u6848",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "\u65b9\u6848\u8bf4\u660e\uff1a\u672c\u65b9\u6848\u7528\u4e8e notebyzyw.cloud \u65b0\u589e\u7f51\u7ad9\u670d\u52a1\u5907\u6848\u3002\u7f51\u7ad9\u7531\u672c\u4eba\u5efa\u8bbe\u5e76\u7ef4\u62a4\uff0c\u4e3b\u8981\u7528\u4e8e\u5c55\u793a\u4e2a\u4eba\u6280\u672f\u7ecf\u5386\u3001\u8f6f\u4ef6\u5f00\u53d1\u4f5c\u54c1\u4e0e\u4e2a\u4eba\u516c\u5f00\u77e5\u8bc6\u5e93\uff0c\u5e76\u901a\u8fc7\u201cZYW \u7684 AI \u5c0f\u52a9\u7406\u201d\u63d0\u4f9b\u56f4\u7ed5\u672c\u4eba\u516c\u5f00\u8d44\u6599\u7684\u667a\u80fd\u95ee\u7b54\u3002\u7f51\u7ad9\u4e0d\u5f00\u5c55\u7ecf\u8425\u6027\u6536\u8d39\uff0c\u4e0d",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "\u4e00\u3001\u7f51\u7ad9\u5185\u5bb9\u53ca\u680f\u76ee\u4ecb\u7ecd",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "1. \u5efa\u7ad9\u76ee\u7684\u4e0e\u670d\u52a1\u5bf9\u8c61\uff1a\u7f51\u7ad9\u7528\u4e8e\u4e2a\u4eba\u6280\u672f\u4f5c\u54c1\u5c55\u793a\u548c\u804c\u4e1a\u4ea4\u6d41\uff0c\u9762\u5411\u5e0c\u671b\u4e86\u89e3\u66fe\u6709\u4e3a\u672c\u4eba\u6280\u672f\u80fd\u529b\u3001\u9879\u76ee\u7ecf\u5386\u53ca\u201cZYW \u7684 AI \u5c0f\u52a9\u7406\u201d\u9879\u76ee\u7684\u8bbf\u5ba2\u3002\u7f51\u7ad9\u5185\u5bb9\u4ee5\u672c\u4eba\u539f\u521b\u9879\u76ee\u8d44\u6599\u3001\u672c\u4eba\u7b80\u5386\u548c\u672c\u4eba\u6574\u7406\u7684\u6280\u672f\u8bf4\u660e\u4e3a\u4e3b\uff0c\u4e0d\u4ee3\u8868\u4efb\u4f55\u4f01\u4e1a\u6216\u673a\u6784\u3002",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "text": "2. \u9875\u9762\u7ed3\u6784\uff1a\u8bbf\u5ba2\u7aef\u91c7\u7528\u5355\u5c4f\u53cc\u680f\u7ed3\u6784\uff0c\u5de6\u4fa7\u4e3a AI \u7cbe\u7075\u5c55\u793a\u533a\uff0c\u7528\u4e8e\u5448\u73b0\u5f85\u673a\u3001\u601d\u8003\u3001\u56de\u7b54\u548c\u8bed\u97f3\u64ad\u653e\u72b6\u6001\uff1b\u53f3\u4fa7\u4e3a\u667a\u80fd\u804a\u5929\u533a\uff0c\u7528\u4e8e\u8f93\u5165\u95ee\u9898\u3001\u67e5\u770b\u6d41\u5f0f\u56de\u7b54\u3001\u5f15\u7528\u6765\u6e90\u3001\u63a8\u8350\u8ffd\u95ee\u548c\u5bf9\u8bdd\u65f6\u95f4\u3002\u79fb\u52a8\u7aef\u4f7f\u7528\u72ec\u7acb\u5e03\u5c40\uff0c\u4fdd\u7559\u804a\u5929\u4e3b\u529f\u80fd\u5e76\u5c06\u7cbe\u7075\u7f29\u5c0f\u4e3a\u53ef\u4ea4\u4e92\u7ec4\u4ef6",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "\u7f51\u7ad9\u5efa\u8bbe\u65b9\u6848",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "\u65b9\u6848\u8bf4\u660e\uff1a",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "\u672c\u65b9\u6848\u7528\u4e8e notebyzyw.cloud \u65b0\u589e\u7f51\u7ad9\u670d\u52a1\u5907\u6848\u3002\u7f51\u7ad9\u7531\u672c\u4eba\u5efa\u8bbe\u5e76\u7ef4\u62a4\uff0c\u4e3b\u8981\u7528\u4e8e\u5c55\u793a\u4e2a\u4eba\u6280\u672f\u7ecf\u5386\u3001\u8f6f\u4ef6\u5f00\u53d1\u4f5c\u54c1\u4e0e\u4e2a\u4eba\u516c\u5f00\u77e5\u8bc6\u5e93\uff0c\u5e76\u901a\u8fc7\u201cZYW \u7684 ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "\u4e00\u3001\u7f51\u7ad9\u5185\u5bb9\u53ca\u680f\u76ee\u4ecb\u7ecd",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "1. \u5efa\u7ad9\u76ee\u7684\u4e0e\u670d\u52a1\u5bf9\u8c61\uff1a",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

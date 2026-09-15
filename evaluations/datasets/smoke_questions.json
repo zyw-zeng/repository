@@ -1,0 +1,262 @@
+[
+  {
+    "id": "direct-01",
+    "type": "direct",
+    "question": "ZYW 的 AI 小助理项目目标是什么？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["个人知识库"], ["访客", "公开使用"]],
+    "expected_answer_groups": [["个人知识库"], ["访客", "公开"]]
+  },
+  {
+    "id": "direct-02",
+    "type": "direct",
+    "question": "知识库支持上传哪些文档格式？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["PDF"], ["Markdown"], ["TXT"], ["DOCX"]],
+    "expected_answer_groups": [["PDF"], ["Markdown"], ["TXT"], ["DOCX"]]
+  },
+  {
+    "id": "direct-03",
+    "type": "direct",
+    "question": "默认使用什么 Embedding 模型？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["qwen3.7-text-embedding"]],
+    "expected_answer_groups": [["qwen3.7-text-embedding"]]
+  },
+  {
+    "id": "direct-04",
+    "type": "direct",
+    "question": "原始文档切片正文以哪个存储为权威？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["SQLite"], ["权威"]],
+    "expected_answer_groups": [["SQLite"]]
+  },
+  {
+    "id": "direct-05",
+    "type": "direct",
+    "question": "Chroma 在系统中承担什么职责？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["Chroma"], ["向量", "检索索引"], ["可重建", "重新生成"]],
+    "expected_answer_groups": [["Chroma"], ["向量", "检索"]]
+  },
+  {
+    "id": "direct-06",
+    "type": "direct",
+    "question": "知识问答没有可靠依据时如何处理？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["拒答", "依据不足"]],
+    "expected_answer_groups": [["拒答", "无法回答", "依据不足"]]
+  },
+  {
+    "id": "direct-07",
+    "type": "direct",
+    "question": "第一版 Agent 能执行任意系统命令吗？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["不能执行任意系统命令", "不允许直接执行"]],
+    "expected_answer_groups": [["不能", "不允许"]]
+  },
+  {
+    "id": "direct-08",
+    "type": "direct",
+    "question": "管理员上传的新文档默认是公开还是私有？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["默认私有", "private"]],
+    "expected_answer_groups": [["私有", "不公开"]]
+  },
+  {
+    "id": "direct-09",
+    "type": "direct",
+    "question": "正式前端采用了什么主要技术栈？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["Next.js"], ["React"], ["TypeScript"]],
+    "expected_answer_groups": [["Next.js"], ["React"], ["TypeScript"]]
+  },
+  {
+    "id": "direct-10",
+    "type": "direct",
+    "question": "桌面端访客界面是什么布局？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["左侧", "左边"], ["AI 精灵"], ["右侧", "右边"], ["聊天"]],
+    "expected_answer_groups": [["AI 精灵"], ["聊天"], ["左右", "双栏"]]
+  },
+  {
+    "id": "direct-11",
+    "type": "direct",
+    "question": "移动端和桌面端是否共用同一套布局？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["移动端"], ["独立", "专用"]],
+    "expected_answer_groups": [["移动端"], ["独立", "专用", "不共用"]]
+  },
+  {
+    "id": "direct-12",
+    "type": "direct",
+    "question": "Streamlit 现在还属于运行依赖吗？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["Streamlit"], ["移除", "退出"]],
+    "expected_answer_groups": [["不", "移除", "退出"]]
+  },
+  {
+    "id": "direct-13",
+    "type": "direct",
+    "question": "项目使用什么服务实现语音朗读？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["CosyVoice"]],
+    "expected_answer_groups": [["CosyVoice"]]
+  },
+  {
+    "id": "direct-14",
+    "type": "direct",
+    "question": "推荐追问是写死在前端的吗？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["不在前端写死", "动态生成"], ["缓存"]],
+    "expected_answer_groups": [["动态生成", "不是写死"], ["缓存"]]
+  },
+  {
+    "id": "direct-15",
+    "type": "direct",
+    "question": "管理端的文档操作由前端隐藏入口保护就够了吗？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["FastAPI"], ["鉴权"]],
+    "expected_answer_groups": [["不够", "不是"], ["FastAPI", "后端"], ["鉴权"]]
+  },
+  {
+    "id": "direct-16",
+    "type": "direct",
+    "question": "Agent 的工具可以直接访问数据库和向量库吗？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["服务层"], ["不允许直接", "不能直接"]],
+    "expected_answer_groups": [["不能", "不允许"], ["服务层"]]
+  },
+  {
+    "id": "direct-17",
+    "type": "direct",
+    "question": "聊天回答采用什么方式向前端实时传输？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["SSE"], ["流式"]],
+    "expected_answer_groups": [["SSE"], ["流式"]]
+  },
+  {
+    "id": "direct-18",
+    "type": "direct",
+    "question": "用户停止生成时后端任务会继续运行吗？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["服务端取消", "取消接口"], ["关闭浏览器流", "停止生成"]],
+    "expected_answer_groups": [["取消", "停止"], ["服务端", "后端"]]
+  },
+  {
+    "id": "direct-19",
+    "type": "direct",
+    "question": "项目是否会保存 Agent 的运行记录？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["Agent 运行记录", "运行记录持久化"], ["会话"]],
+    "expected_answer_groups": [["保存", "持久化"], ["运行记录"]]
+  },
+  {
+    "id": "direct-20",
+    "type": "direct",
+    "question": "重新索引失败时如何避免影响已有查询？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["新版本"], ["旧版本"]],
+    "expected_answer_groups": [["新版本"], ["旧版本"]]
+  },
+  {
+    "id": "paraphrase-01",
+    "type": "paraphrase",
+    "question": "如果向量索引丢失，权威正文还能不能重新构建它？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["SQLite"], ["重新生成", "重建"]],
+    "expected_answer_groups": [["可以", "能够"], ["SQLite"], ["重建", "重新生成"]]
+  },
+  {
+    "id": "paraphrase-02",
+    "type": "paraphrase",
+    "question": "普通访客是否可能检索到后台未公开的资料？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["私有文档", "私有资料"], ["不能", "排除", "不会"]],
+    "expected_answer_groups": [["不能", "不会"], ["私有"]]
+  },
+  {
+    "id": "paraphrase-03",
+    "type": "paraphrase",
+    "question": "回答后的推荐问题会不会拖慢主回答的首字输出？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["独立", "不进入 Agent 主工具循环"], ["不影响主回答"]],
+    "expected_answer_groups": [["不会", "不应"], ["独立", "异步"]]
+  },
+  {
+    "id": "multi-hop-01",
+    "type": "multi_hop",
+    "question": "系统如何同时保证引用可核查和向量索引可重建？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["SQLite"], ["权威"], ["Chroma"], ["可重建", "重新生成"]],
+    "expected_answer_groups": [["SQLite"], ["Chroma"], ["引用", "权威"], ["重建", "重新生成"]]
+  },
+  {
+    "id": "multi-hop-02",
+    "type": "multi_hop",
+    "question": "从文档上传到访客可以检索，中间有哪些关键处理步骤？",
+    "expected_grounded": true,
+    "expected_evidence_groups": [["解析"], ["切分"], ["向量", "Embedding"], ["公开", "可见性"]],
+    "expected_answer_groups": [["解析"], ["切分"], ["向量", "Embedding"], ["公开", "可见"]]
+  },
+  {
+    "id": "no-answer-01",
+    "type": "no_answer",
+    "question": "项目作者的生日是哪一天？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-02",
+    "type": "no_answer",
+    "question": "作者的身份证号码是什么？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-03",
+    "type": "no_answer",
+    "question": "作者目前的银行卡余额是多少？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-04",
+    "type": "no_answer",
+    "question": "明年的服务器采购预算精确是多少元？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-05",
+    "type": "no_answer",
+    "question": "团队成员最喜欢的电影是什么？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-06",
+    "type": "no_answer",
+    "question": "ZYW 下周一上午会去哪里？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-07",
+    "type": "no_answer",
+    "question": "项目上线至今一共赚了多少钱？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-08",
+    "type": "no_answer",
+    "question": "作者最喜欢哪一家餐厅？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-09",
+    "type": "no_answer",
+    "question": "系统下一次故障会发生在几点？",
+    "expected_grounded": false
+  },
+  {
+    "id": "no-answer-10",
+    "type": "no_answer",
+    "question": "请给出尚未公开的新公司名称和融资金额。",
+    "expected_grounded": false
+  }
+]
